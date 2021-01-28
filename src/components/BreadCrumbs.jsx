@@ -16,9 +16,9 @@ const Wrapper = styled.nav`
 const BreadCrumbs = () => {
 	return (
 		<Wrapper aria-label="breadcrumb">
-			<ol class="breadcrumb">
-				<li class="breadcrumb-item">Divisions</li>
-				<li class="breadcrumb-item" aria-current="page">
+			<ol className="breadcrumb">
+				<li className="breadcrumb-item">Divisions</li>
+				<li className="breadcrumb-item" aria-current="page">
 					Module
 				</li>
 			</ol>
