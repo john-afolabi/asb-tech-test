@@ -11,6 +11,10 @@ const SDT = styled.div`
 		font-size: 12px;
 	}
 
+	.rdt_TableRow {
+		padding: 1rem 0;
+	}
+
 	.name-col {
 		font-size: 14px;
 		font-weight: 500;
