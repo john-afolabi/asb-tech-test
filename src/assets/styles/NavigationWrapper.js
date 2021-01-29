@@ -9,10 +9,19 @@ const Wraooer = styled.nav`
 			line-height: 22px;
 			font-weight: bold;
 		}
+
+		@media (max-width: 1200px) {
+			margin-right: 30px;
+		}
 	}
 
 	.nav-item {
 		padding: 0 15px;
+
+		@media (max-width: 992px) {
+			padding-left: 0.5em;
+			border-bottom: 1px solid #396960;
+		}
 	}
 
 	.nav-item .active {

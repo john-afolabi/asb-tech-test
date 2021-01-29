@@ -65,24 +65,25 @@ const Navigation = () => {
 						</a>
 					</li>
 				</ul>
+				<div className="d-flex align-items-center">
+					<form className="form-inline my-2 my-lg-0">
+						<span>
+							<img src={Search} alt="search" />
+						</span>
+						<input
+							className="form-control mr-sm-2"
+							type="search"
+							aria-label="Search"
+						/>
+					</form>
 
-				<form className="form-inline my-2 my-lg-0">
-					<span>
-						<img src={Search} alt="search" />
-					</span>
-					<input
-						className="form-control mr-sm-2"
-						type="search"
-						aria-label="Search"
-					/>
-				</form>
-
-				<div>
-					<Notification />
-					<span>
-						<img src={DefaultProfile} alt="user profile " />
-						<DropDown />
-					</span>
+					<div>
+						<Notification />
+						<span>
+							<img src={DefaultProfile} alt="user profile " />
+							<DropDown />
+						</span>
+					</div>
 				</div>
 			</div>
 		</Wrapper>
