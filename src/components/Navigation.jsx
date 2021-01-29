@@ -15,7 +15,7 @@ const Navigation = () => {
 
 	return (
 		<Wrapper className="navbar navbar-expand-lg navbar-light">
-			<a className="navbar-brand" href="#">
+			<a className="navbar-brand" href="/">
 				<img src={Logo} alt="Logo" />
 				<span>FE Engineer Test 1</span>
 			</a>
@@ -41,7 +41,7 @@ const Navigation = () => {
 			>
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item">
-						<a className="nav-link" href="#">
+						<a className="nav-link" href="/">
 							<span className="d-flex align-items-center">
 								<Home />
 								Home
@@ -49,7 +49,7 @@ const Navigation = () => {
 						</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">
+						<a className="nav-link" href="/">
 							<span className="d-flex align-items-center">
 								<Entries /> Entries
 							</span>
@@ -57,7 +57,7 @@ const Navigation = () => {
 					</li>
 
 					<li className="nav-item">
-						<a className="nav-link" href="#">
+						<a className="nav-link" href="/">
 							<span className="d-flex align-items-center">
 								<Divisions />
 								Divisions
