@@ -6,6 +6,7 @@ const DSWrapper = styled.div`
 	box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
 	border-radius: 6px;
 	font-weight: 500;
+	margin-bottom: 1em;
 
 	div {
 		margin-bottom: 1.5rem;
