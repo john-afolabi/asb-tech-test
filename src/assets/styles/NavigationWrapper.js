@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Wraooer = styled.nav`
+const Wrapper = styled.nav`
 	box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
 	@media (min-width: 992px) {
 		height: 60px;
@@ -76,4 +76,4 @@ const Wraooer = styled.nav`
 	}
 `;
 
-export default Wraooer;
+export default Wrapper;

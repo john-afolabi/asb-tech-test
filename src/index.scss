@@ -2,18 +2,21 @@
 	font-family: "Product Sans";
 	src: url("./assets/fonts/ProductSans-Regular.ttf");
 	font-weight: 400;
+	font-display: fallback;
 }
 
 @font-face {
 	font-family: "Product Sans";
 	src: url("./assets/fonts/ProductSans-Medium.ttf");
 	font-weight: 500;
+	font-display: fallback;
 }
 
 @font-face {
 	font-family: "Product Sans";
 	src: url("./assets/fonts/ProductSans-Bold.ttf");
 	font-weight: 700;
+	font-display: fallback;
 }
 
 body {
