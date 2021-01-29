@@ -7,7 +7,12 @@ import columns from "./columns";
 const Table = () => {
 	return (
 		<SDT>
-			<DataTable columns={columns} data={data} selectableRows />{" "}
+			<DataTable
+				columns={columns}
+				data={data}
+				selectableRows={true}
+				responsive={true}
+			/>
 		</SDT>
 	);
 };

@@ -5,11 +5,12 @@ const SummaryCardsWrapper = styled.section`
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-
+	.col {
+		width: 50vw;
+	}
 	.summary-card {
 		padding: 2rem 1rem;
 		margin-bottom: 1rem;
-		width: calc(100vw / 5 - 3rem);
 		box-shadow: 0px 4px 30px rgba(192, 192, 192, 0.25);
 		border-radius: 6px;
 

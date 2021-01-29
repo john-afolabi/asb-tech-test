@@ -28,22 +28,23 @@ const data = [
 const SummaryCards = () => {
 	return (
 		<SummaryCardsWrapper>
-			{data.map((item, index) => {
-				return (
-					<div
-						className="summary-card d-flex justify-content-between"
-						key={index}
-					>
-						<div>
-							<h3>{item.value}</h3>
-							<p>{item.desc}</p>
+			<div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  g-4">
+				{data.map((item, index) => {
+					return (
+						<div className="col" key={index}>
+							<div className="summary-card d-flex justify-content-between">
+								<div>
+									<h3>{item.value}</h3>
+									<p>{item.desc}</p>
+								</div>
+								<span>
+									<Alert />
+								</span>
+							</div>
 						</div>
-						<span>
-							<Alert />
-						</span>
-					</div>
-				);
-			})}
+					);
+				})}
+			</div>
 		</SummaryCardsWrapper>
 	);
 };

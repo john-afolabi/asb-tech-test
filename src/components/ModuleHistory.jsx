@@ -4,7 +4,7 @@ import MHWrapper from "../assets/styles/MHWrapper";
 const ModuleHistory = () => {
 	return (
 		<MHWrapper>
-			<ul class="timeline">
+			<ul className="timeline">
 				<li>
 					<p className="title">
 						Searched “Journal Entries” on Division module
