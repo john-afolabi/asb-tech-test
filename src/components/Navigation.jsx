@@ -56,7 +56,7 @@ const Navigation = () => {
 						</a>
 					</li>
 
-					<li className="nav-item">
+					<li className="nav-item active">
 						<a className="nav-link" href="/">
 							<span className="d-flex align-items-center">
 								<Divisions />
@@ -65,7 +65,7 @@ const Navigation = () => {
 						</a>
 					</li>
 				</ul>
-				<div className="d-flex align-items-center">
+				<div className="d-flex align-items-center justify-content-between">
 					<form className="form-inline my-2 my-lg-0">
 						<span>
 							<img src={Search} alt="search" />

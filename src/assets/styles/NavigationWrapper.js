@@ -2,6 +2,11 @@ import styled from "styled-components";
 
 const Wraooer = styled.nav`
 	box-shadow: inset 0px -1px 0px rgba(220, 225, 231, 0.572143);
+	@media (min-width: 992px) {
+		height: 60px;
+		padding: 0 1rem;
+	}
+
 	.navbar-brand {
 		margin-right: 80px;
 		span {
@@ -15,6 +20,12 @@ const Wraooer = styled.nav`
 		}
 	}
 
+	.navbar-nav {
+		@media (min-width: 992px) {
+			height: 60px;
+		}
+	}
+
 	.nav-item {
 		padding: 0 15px;
 
@@ -22,10 +33,22 @@ const Wraooer = styled.nav`
 			padding-left: 0.5em;
 			border-bottom: 1px solid #396960;
 		}
+
+		@media (min-width: 992px) {
+			padding-top: 0.6rem;
+		}
 	}
 
-	.nav-item .active {
-		color: red;
+	li.active {
+		background-color: #deefff;
+		border-bottom: 4px solid #006fd6;
+		a.nav-link {
+			color: #006fd6 !important;
+			font-weight: 500;
+			span > svg {
+				color: #006fd6;
+			}
+		}
 	}
 
 	div > ul > li > a > span > svg {
